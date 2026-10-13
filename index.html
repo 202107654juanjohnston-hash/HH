@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff3f6">
+  <meta name="description" content="Una carta hecha con cariño para Lorena.">
+  <title>Para Lorena, con cariño ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+  <main class="card">
+    <div class="top-label">HECHO CON CARIÑO, PARA TI</div>
+
+    <!-- INICIO -->
+    <section id="intro" class="screen active">
+      <div class="illustration envelope">💌</div>
+      <p class="eyebrow">Para Lorena</p>
+      <h1>Hay algo que quisiera decirte...</h1>
+
+      <p class="description">
+        Y esta vez quise hacerlo de una manera un poquito diferente.
+      </p>
+
+      <button class="primary" id="startBtn">
+        Abrir tu carta ❤️
+      </button>
+    </section>
+
+    <!-- PRIMER MENSAJE -->
+    <section id="message1" class="screen">
+      <div class="illustration">🥹</div>
+      <p class="eyebrow">Antes que nada...</p>
+      <h2>Sabes que no soy de muchas palabras.</h2>
+
+      <div class="letter">
+        Tú sabes que no soy de esas personas que siempre encuentran
+        las palabras perfectas para expresar lo que sienten.
+        A veces tengo tantas cosas en la cabeza y en el corazón
+        que simplemente no sé cómo decirlas.
+
+        <br><br>
+
+        Por eso te hice esto, Lorena. No es perfecto, lo sé.
+        Quizá tiene sus detalles y no se compara con todo lo que
+        quisiera poder decirte mirándote a los ojos.
+
+        <br><br>
+
+        Pero detrás de cada palabra y de cada detalle hay algo
+        sincero: me tomé el tiempo de hacerlo porque eres alguien
+        que ha significado mucho para mí.
+
+        <br><br>
+
+        Tal vez no me salga decir todo esto en persona, pero al
+        menos quería intentarlo de una forma que se sintiera mía.
+        ❤️
+      </div>
+
+      <button class="primary" data-next="message2">
+        Quiero contarte algo más →
+      </button>
+    </section>
+
+    <!-- SEGUNDO MENSAJE -->
+    <section id="message2" class="screen">
+      <div class="illustration">🌧️❤️‍🩹</div>
+      <p class="eyebrow">Algo que nunca te dije</p>
+      <h2>Me alejé, pero no porque dejaras de importarme.</h2>
+
+      <div class="letter">
+        Ya han pasado varios días desde que nos alejamos y,
+        aunque quizá no te lo imagines, te extraño.
+
+        <br><br>
+
+        Nunca llegué a hablar contigo de lo que pasó. Hubo cosas
+        que vi y situaciones que me hicieron pensar muchas cosas,
+        y poco a poco empecé a sentir miedo de salir lastimado.
+
+        <br><br>
+
+        No sabía si estaba entendiendo bien lo que sucedía,
+        no tenía todas las respuestas y tampoco me atreví a
+        preguntarte directamente. Dejé que mis dudas y mis
+        pensamientos hablaran por mí.
+
+        <br><br>
+
+        Por eso me alejé. Tal vez pensé que guardar distancia
+        sería más fácil que enfrentar una conversación para la
+        que no me sentía preparado.
+
+        <br><br>
+
+        Pero ahora entiendo que, aunque tuviera miedo, quizá
+        debí hablar contigo en lugar de desaparecer. No fue
+        la mejor manera de manejar las cosas, y reconozco mi
+        parte en eso.
+
+        <br><br>
+
+        No te escribo para acusarte, reclamarte ni asumir cosas
+        que nunca llegué a confirmar. Solo quería ser honesto
+        contigo sobre lo que sentí y sobre por qué terminé
+        alejándome.
+      </div>
+
+      <button class="primary" data-next="memories">
+        Hay algo que todavía recuerdo... →
+      </button>
+    </section>
+
+    <!-- RECUERDOS Y FOTOS -->
+    <section id="memories" class="screen">
+      <div class="illustration">📸</div>
+      <p class="eyebrow">Pequeños recuerdos</p>
+      <h2>Hay momentos que todavía me sacan una sonrisa.</h2>
+
+      <p class="description">
+        A veces una foto guarda más de lo que uno sabe explicar.
+        Estos recuerdos son una pequeña parte de lo bonito que
+        compartimos.
+      </p>
+
+      <div class="gallery">
+        <figure class="photo photo-tall">
+          <img src="img/lorena1.jpg" alt="Un recuerdo de Lorena" loading="lazy">
+          <figcaption>Tu sonrisa ❤️</figcaption>
+        </figure>
+
+        <figure class="photo photo-tall">
+          <img src="img/lorena2.jpg" alt="Lorena disfrutando del fútbol" loading="lazy">
+          <figcaption>Una de tus versiones favoritas ⚽</figcaption>
+        </figure>
+
+        <figure class="photo">
+          <img src="img/lorena3.jpg" alt="Un retrato de Lorena" loading="lazy">
+          <figcaption>Así, siendo tú 🌷</figcaption>
+        </figure>
+
+        <figure class="photo photo-wide">
+          <img src="img/recuerdo.jpg" alt="Un recuerdo juntos con un gatito" loading="lazy">
+          <figcaption>Un recuerdo que guardo con cariño 🐈</figcaption>
+        </figure>
+      </div>
+
+      <p class="memory-note">
+        No hace falta que el pasado sea perfecto para agradecer
+        las cosas bonitas que nos dejó.
+      </p>
+
+      <button class="primary" data-next="message3">
+        Quiero decirte algo más →
+      </button>
+    </section>
+
+    <!-- TERCER MENSAJE -->
+    <section id="message3" class="screen">
+      <div class="illustration">🕊️</div>
+      <p class="eyebrow">Desde el corazón</p>
+      <h2>No espero que todo vuelva a ser como antes.</h2>
+
+      <div class="letter">
+        Sé que el tiempo pasa, que las cosas cambian y que no
+        podemos regresar exactamente al día en que todo se
+        sentía diferente.
+
+        <br><br>
+
+        No espero que todo vuelva a ser como un día fue.
+        Sé que quizá ya nada será igual, y tampoco quiero
+        pedirte que olvides lo que pasó o que hagamos como
+        si estos días nunca hubieran existido.
+
+        <br><br>
+
+        Lo que sí quiero es que estés bien. Que seas feliz,
+        que tengas tranquilidad y que la vida te regale muchas
+        razones para sonreír, incluso en los días en los que
+        yo no esté cerca para verlo.
+
+        <br><br>
+
+        Y si alguna vez me recuerdas, espero que no sea solamente
+        por cómo terminaron las cosas, sino también por esos
+        momentos en los que conseguimos hacernos bien.
+
+        <br><br>
+
+        Te extraño, Lorena. No me da vergüenza reconocerlo.
+        Pero extrañarte tampoco me da derecho a pedirte nada.
+        Solo quería que lo supieras.
+      </div>
+
+      <button class="primary" data-next="question">
+        Hay una última cosa... ❤️
+      </button>
+    </section>
+
+    <!-- PREGUNTA FINAL -->
+    <section id="question" class="screen">
+      <div class="illustration heartbeat">💗</div>
+      <p class="eyebrow">Y esta vez quiero preguntarte</p>
+
+      <h2>Espero y algun día se de todo de nuevo</h2>
+
+      <p class="description">
+        Sin presiones, sin promesas imposibles y sin tener que
+        resolverlo todo hoy. Solo una conversación sincera,
+        si tú también quieres.
+      </p>
+
+      <div class="button-area" id="buttonArea">
+        <button class="primary yes-btn" id="yesBtn">
+          Sí, hablemos ❤️
+        </button>
+
+        <button class="no-btn" id="noBtn">
+          No, gracias
+        </button>
+      </div>
+
+      <p class="hint" id="hint">
+        El botón inquieto hace de las suyas 😂
+      </p>
+    </section>
+
+    <!-- SI ACEPTA -->
+    <section id="happy" class="screen">
+      <div class="illustration heartbeat">❤️‍🩹</div>
+      <p class="eyebrow">Gracias por leerme</p>
+      <h2>Me gustaría escucharte, Lore.</h2>
+
+      <div class="letter">
+        Gracias por darme la oportunidad de volver a hablar
+        contigo.
+
+        <br><br>
+
+        No quiero apresurar nada ni asumir que una conversación
+        significa que todo está resuelto. Quiero que podamos
+        hablar con honestidad, escucharnos y entender cómo nos
+        sentimos los dos.
+
+        <br><br>
+
+        Si hay algo que debamos aclarar, prefiero hacerlo
+        hablando contigo y no imaginando respuestas por mi cuenta.
+
+        <br><br>
+
+        Me alegra que podamos abrir esa puerta. Vamos con calma,
+        ¿sí? ❤️
+      </div>
+
+      <p class="signature">Con cariño, para ti, Lorena.</p>
+      <div class="final-heart">❤️</div>
+    </section>
+
+    <!-- SI NO QUIERE -->
+    <section id="noThanks" class="screen">
+      <div class="illustration">🕊️</div>
+      <p class="eyebrow">También quería decirte esto</p>
+      <h2>Gracias por escucharme, Lorena.</h2>
+
+      <div class="letter">
+        Aunque me habría gustado que la respuesta fuera diferente,
+        respeto lo que sientes y la decisión que tomes.
+
+        <br><br>
+
+        No hice esto para hacerte sentir culpable ni para
+        obligarte a regresar. Lo hice porque quería expresarte
+        algo que llevaba guardado.
+
+        <br><br>
+
+        De corazón, espero que estés bien y que seas feliz.
+        Gracias por los momentos bonitos que compartimos.
+        ❤️
+      </div>
+
+      <p class="signature">Cuídate mucho, Lore.</p>
+    </section>
+
+    <footer>
+      Hecho con cariño, un poco de valor y muchas cosas que decir. ❤️
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
